@@ -182,7 +182,7 @@ generate_key_process() {
 		return
 	fi
 
-	for i in {1..32}; do
+	for i in {1..55}; do
 		sleep $((EVENTS_DELAY * (RANDOM % 3 + 1) / 3))
 		has_code=$(emulate_progress "$client_token" "$promo_id" "$proxy")
 
