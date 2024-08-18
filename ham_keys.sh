@@ -183,7 +183,7 @@ generate_key_process() {
 	fi
 
 	for i in {1..32}; do
-		sleep $((EVENTS_DELAY * (RANDOM % 4 + 1) / 3))
+		sleep $((EVENTS_DELAY * (RANDOM % 3 + 1) / 3))
 		has_code=$(emulate_progress "$client_token" "$promo_id" "$proxy")
 
 		if [[ "$has_code" == "true" ]]; then
