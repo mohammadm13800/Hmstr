@@ -9,6 +9,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/ham_keys.sh)
 ```
 
+## Daily cipher:
+```
+bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/daily_cipher.sh)
+```
 ### More advanced Auto buy
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/install_second.sh)
