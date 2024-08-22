@@ -8,6 +8,11 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/ham_keys.sh)
 ```
+## Daily Cipher
+```
+bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/daily_cipher.sh)
+```
+
 ### More advanced Auto buy
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy-BestCard/main/install_second.sh)
@@ -18,7 +23,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Hamster-Auto-buy
 ```
 ![29](https://raw.githubusercontent.com/Ptechgithub/configs/main/media/29.jpg)
 ---
-### Daily Cipher
+### Daily Cipher Web
 https://morse-code.onlycloudflare.workers.dev
 
 How to Run hamster in Browser:
