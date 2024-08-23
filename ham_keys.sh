@@ -69,9 +69,17 @@ games[6, name]="Polysphere"
 games[6, appToken]="2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71"
 games[6, promoId]="2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71"
 
-games[7, name]="My Clone Army"
-games[7, appToken]="74ee0b5b-775e-4bee-974f-63e7f4d5bacb"
-games[7, promoId]="fe693b26-b342-4159-8808-15e3ff7f8767"
+games[7, name]="Mow and Trim"
+games[7, appToken]="ef319a80-949a-492e-8ee0-424fb5fc20a6"
+games[7, promoId]="ef319a80-949a-492e-8ee0-424fb5fc20a6"
+
+games[8, name]="Mud Racing"
+games[8, appToken]="8814a785-97fb-4177-9193-ca4180ff9da8"
+games[8, promoId]="8814a785-97fb-4177-9193-ca4180ff9da8"
+
+games[9, name]="My Clone Army"
+games[9, appToken]="74ee0b5b-775e-4bee-974f-63e7f4d5bacb"
+games[9, promoId]="fe693b26-b342-4159-8808-15e3ff7f8767"
 
 # Proxys
 load_proxies() {
@@ -204,7 +212,7 @@ main() {
 	load_proxies "$PROXY_FILE"
 
 	while true; do
-		for game_choice in {1..7}; do
+		for game_choice in {1..9}; do
 			if [[ ${#proxies[@]} -gt 0 ]]; then
 				proxy=${proxies[RANDOM % ${#proxies[@]}]}
 			else
