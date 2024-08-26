@@ -77,10 +77,6 @@ games[8, name]="Mud Racing"
 games[8, appToken]="8814a785-97fb-4177-9193-ca4180ff9da8"
 games[8, promoId]="8814a785-97fb-4177-9193-ca4180ff9da8"
 
-games[9, name]="My Clone Army"
-games[9, appToken]="74ee0b5b-775e-4bee-974f-63e7f4d5bacb"
-games[9, promoId]="fe693b26-b342-4159-8808-15e3ff7f8767"
-
 # Proxys
 load_proxies() {
 	if [[ -f "$1" ]]; then
@@ -212,7 +208,7 @@ main() {
 	load_proxies "$PROXY_FILE"
 
 	while true; do
-		for game_choice in {1..9}; do
+		for game_choice in {1..8}; do
 			if [[ ${#proxies[@]} -gt 0 ]]; then
 				proxy=${proxies[RANDOM % ${#proxies[@]}]}
 			else
