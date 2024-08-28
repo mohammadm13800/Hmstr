@@ -77,6 +77,10 @@ games[8, name]="Mud Racing"
 games[8, appToken]="8814a785-97fb-4177-9193-ca4180ff9da8"
 games[8, promoId]="8814a785-97fb-4177-9193-ca4180ff9da8"
 
+games[9, name]="Cafe Dash"
+games[9, appToken]="bc0971b8-04df-4e72-8a3e-ec4dc663cd11"
+games[9, promoId]="bc0971b8-04df-4e72-8a3e-ec4dc663cd11"
+
 # Proxys
 load_proxies() {
 	if [[ -f "$1" ]]; then
